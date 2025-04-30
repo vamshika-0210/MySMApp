@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/vamshika-0210/MySMApp.gits'
+                git branch: 'master', url: 'https://github.com/vamshika-0210/MySMApp.git'
             }
         }
 
